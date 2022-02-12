@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
         title: Text("Catalog App")
       ),
       body: Center(
-      child: Container(
-      child: Text("First android app: $days and with power $red"),
+        child: Container(
+          child: Text("Top $days and with power $red"),
         ),
       ),
       drawer: MyDrawer(),

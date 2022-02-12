@@ -16,7 +16,7 @@ class MyTheme{
   );
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
-    primarySwatch: Colors.red,
+    primarySwatch: Colors.pink,
     fontFamily: GoogleFonts.lato().fontFamily,
     primaryTextTheme: GoogleFonts.latoTextTheme(),
     appBarTheme: AppBarTheme(
